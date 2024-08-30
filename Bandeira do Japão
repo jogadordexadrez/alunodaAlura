@@ -1,0 +1,10 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255); // Cor de fundo branca
+  fill(255, 0, 0); // Cor da bola vermelha
+  noStroke(); // Sem bordas
+  ellipse(width / 2, height / 2, 200, 200); // Desenha a bola no centro da tela
+}
